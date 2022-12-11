@@ -1,0 +1,9 @@
+name = "MetaBIE"
+uuid = "e659b643-8284-4b62-a0db-b1c244fc1909"
+authors = ["lxvm <lorenzo@vanmunoz.com>"]
+version = "0.1.0"
+
+[deps]
+Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
