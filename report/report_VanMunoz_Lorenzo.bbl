@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+
+\bibitem{barnettNewIntegralRepresentation2011}
+{\sc A.~Barnett and L.~Greengard}, {\em A new integral representation for
+  quasi-periodic scattering problems in two dimensions}, BIT Numerical
+  Mathematics, 51 (2011), pp.~67--90,
+  \url{https://doi.org/10.1007/s10543-010-0297-x}.
+
+\bibitem{brunoWindowedGreenFunction2016}
+{\sc O.~P. Bruno, M.~Lyon, C.~{P{\'e}rez-Arancibia}, and C.~Turc}, {\em
+  Windowed {{Green Function Method}} for {{Layered-Media Scattering}}}, SIAM
+  Journal on Applied Mathematics, 76 (2016), pp.~1871--1898,
+  \url{https://doi.org/10.1137/15M1033782}.
+
+\bibitem{coltonInverseAcousticElectromagnetic2013}
+{\sc D.~Colton and R.~Kress}, {\em Inverse {{Acoustic}} and {{Electromagnetic
+  Scattering Theory}}}, vol.~93 of Applied {{Mathematical Sciences}},
+  {Springer}, {New York, NY}, 2013,
+  \url{https://doi.org/10.1007/978-1-4614-4942-3}.
+
+\bibitem{haoHighorderAccurateNystrom2012}
+{\sc S.~Hao, A.~H. Barnett, P.~G. Martinsson, and P.~Young}, {\em High-order
+  accurate {{Nystrom}} discretization of integral equations with weakly
+  singular kernels on smooth curves in the plane}, Nov. 2012,
+  \url{https://doi.org/10.48550/arXiv.1112.6262},
+  \url{https://arxiv.org/abs/1112.6262}.
+
+\bibitem{kuesterAveragedTransitionConditions2003}
+{\sc E.~Kuester, M.~Mohamed, M.~{Piket-May}, and C.~Holloway}, {\em Averaged
+  transition conditions for electromagnetic fields at a metafilm}, IEEE
+  Transactions on Antennas and Propagation, 51 (2003), pp.~2641--2651,
+  \url{https://doi.org/10.1109/TAP.2003.817560}.
+
+\bibitem{perez-arancibiaSidewaysAdiabaticityRay2018}
+{\sc C.~{P{\'e}rez-Arancibia}, R.~Pestourie, and S.~G. Johnson}, {\em Sideways
+  adiabaticity: Beyond ray optics for slowly varying metasurfaces}, Optics
+  Express, 26 (2018), pp.~30202--30230,
+  \url{https://doi.org/10.1364/OE.26.030202}.
+
+\end{thebibliography}

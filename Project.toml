@@ -1,4 +1,11 @@
 [deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
 MetaBIE = "e659b643-8284-4b62-a0db-b1c244fc1909"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+RecursiveFactorization = "f2c3362d-daeb-58d1-803e-2bc74f2840b4"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"

@@ -1,0 +1,72 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{kuesterAveragedTransitionConditions2003}
+\citation{kuesterAveragedTransitionConditions2003}
+\citation{barnettNewIntegralRepresentation2011}
+\citation{perez-arancibiaSidewaysAdiabaticityRay2018}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Problem formulation}{1}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Boundary conditions}{1}{subsection.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Reduction to 2D}{1}{subsection.8}\protected@file@percent }
+\citation{barnettNewIntegralRepresentation2011}
+\citation{brunoWindowedGreenFunction2016}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Quasi-periodic Green's function}{2}{subsection.12}\protected@file@percent }
+\citation{coltonInverseAcousticElectromagnetic2013}
+\citation{haoHighorderAccurateNystrom2012}
+\citation{coltonInverseAcousticElectromagnetic2013}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Integral formulation}{3}{subsection.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Spectrally accurate quadrature for closed boundaries}{3}{section.28}\protected@file@percent }
+\citation{haoHighorderAccurateNystrom2012}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Singularity separation}{4}{subsection.29}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Nystr\"om discretization}{4}{subsection.31}\protected@file@percent }
+\newlabel{eq:quad}{{3.2}{4}{Nystr\"om discretization}{equation.32}{}}
+\newlabel{eq:quad@cref}{{[equation][2][3]3.2}{[1][4][]4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Fast iterative solver}{4}{section.34}\protected@file@percent }
+\citation{perez-arancibiaSidewaysAdiabaticityRay2018}
+\citation{perez-arancibiaSidewaysAdiabaticityRay2018}
+\citation{perez-arancibiaSidewaysAdiabaticityRay2018}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Representative geometry of the 2D metasurface scattering problem and parameters of a metasurface which deflects an incident planewave to an outgoing planewave with a new wavevector. This metasurface only accomplishes its goal for a single wavenumber and a single set of incident and outgoing wavevectors. Leftmost figure was taken from \cite  {perez-arancibiaSidewaysAdiabaticityRay2018}. Generally the periodic metasurface, which acts as a diffraction grating, can only couple Bloch wavevectors on either side of the surface.}}{5}{figure.41}\protected@file@percent }
+\newlabel{fig:parameters}{{1}{5}{Representative geometry of the 2D metasurface scattering problem and parameters of a metasurface which deflects an incident planewave to an outgoing planewave with a new wavevector. This metasurface only accomplishes its goal for a single wavenumber and a single set of incident and outgoing wavevectors. Leftmost figure was taken from \cite {perez-arancibiaSidewaysAdiabaticityRay2018}. Generally the periodic metasurface, which acts as a diffraction grating, can only couple Bloch wavevectors on either side of the surface}{figure.41}{}}
+\newlabel{fig:parameters@cref}{{[figure][1][]1}{[1][5][]5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Fourier pseudospectral matrix-vector product}{5}{subsection.35}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{5}{section.37}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Problem parameters}{5}{subsection.38}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Convergence tests}{5}{subsection.45}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Solutions of the deflecting metasurface scattering problem with parameters $k=10, \theta _i=-\pi /2, \theta _t=-\pi /6$. The line plot displays the real and imaginary parts of the surface current densitites above and below the metasurface as obtained by the solver. The heatmap displays the real part of the fields, which clearly depict the normally-incident planewave from above the sheet being deflected to an obliquely-outgoing planewave.}}{6}{figure.43}\protected@file@percent }
+\newlabel{fig:solution}{{2}{6}{Solutions of the deflecting metasurface scattering problem with parameters $k=10, \theta _i=-\pi /2, \theta _t=-\pi /6$. The line plot displays the real and imaginary parts of the surface current densitites above and below the metasurface as obtained by the solver. The heatmap displays the real part of the fields, which clearly depict the normally-incident planewave from above the sheet being deflected to an obliquely-outgoing planewave}{figure.43}{}}
+\newlabel{fig:solution@cref}{{[figure][2][]2}{[1][5][]6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The spectrally-accurate Kress quadrature rule used in this report appears to only yield algebraic convergence in the solution of the surface current densities and the fields, which were evaluated at a distance of one wavelength away from the metasurface. In fact, this is due to treatment of the quasi-periodic Green's function, which is windowed and thus not truly periodic, and moreover, is only corrected with the Kress quadrature rule at one of the singularities, therefore breaking the periodicity. Nonetheless, the rate of algebraic convergence that can be seen in the surface density plots is $\mathcal  {O}(N^{-4})$ and is sufficiently rapid to obtain 10 digits of accuracy when requesting $N=128$.}}{6}{figure.46}\protected@file@percent }
+\newlabel{fig:converge}{{3}{6}{The spectrally-accurate Kress quadrature rule used in this report appears to only yield algebraic convergence in the solution of the surface current densities and the fields, which were evaluated at a distance of one wavelength away from the metasurface. In fact, this is due to treatment of the quasi-periodic Green's function, which is windowed and thus not truly periodic, and moreover, is only corrected with the Kress quadrature rule at one of the singularities, therefore breaking the periodicity. Nonetheless, the rate of algebraic convergence that can be seen in the surface density plots is $\mathcal {O}(N^{-4})$ and is sufficiently rapid to obtain 10 digits of accuracy when requesting $N=128$}{figure.46}{}}
+\newlabel{fig:converge@cref}{{[figure][3][]3}{[1][6][]6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Method scaling}{6}{subsection.48}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Code availability}{6}{subsection.53}\protected@file@percent }
+\bibstyle{siamplain}
+\bibdata{references}
+\bibcite{barnettNewIntegralRepresentation2011}{1}
+\bibcite{brunoWindowedGreenFunction2016}{2}
+\bibcite{coltonInverseAcousticElectromagnetic2013}{3}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Wall clock time versus $N$ comparing the direct solver and fast solver for calculating the surface densities of the deflecting metasurface with parameters $k=10, \theta _i = -\pi /2, \theta _t = -\pi /6$. All calculations were performed on a single core of an Intel i5-12500 processor, and they include the time to evaluate the boundary data, construct the single-layer operator, and solve the linear system. The only cached data used were the Kress quadrature weights and FFTW plans.}}{7}{figure.49}\protected@file@percent }
+\newlabel{fig:scaling}{{4}{7}{Wall clock time versus $N$ comparing the direct solver and fast solver for calculating the surface densities of the deflecting metasurface with parameters $k=10, \theta _i = -\pi /2, \theta _t = -\pi /6$. All calculations were performed on a single core of an Intel i5-12500 processor, and they include the time to evaluate the boundary data, construct the single-layer operator, and solve the linear system. The only cached data used were the Kress quadrature weights and FFTW plans}{figure.49}{}}
+\newlabel{fig:scaling@cref}{{[figure][4][]4}{[1][6][]7}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Representative timings and relative errors taken from the preceding plots comparing the speed of the two solvers and the relative error in the surface density of their solution. The relative error displayed is the maximum relative error of either the surface density above or below the sheet.}}{7}{table.51}\protected@file@percent }
+\newlabel{tab:summary}{{1}{7}{Representative timings and relative errors taken from the preceding plots comparing the speed of the two solvers and the relative error in the surface density of their solution. The relative error displayed is the maximum relative error of either the surface density above or below the sheet}{table.51}{}}
+\newlabel{tab:summary@cref}{{[table][1][]1}{[1][6][]7}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{7}{section.54}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{7}{section.54}\protected@file@percent }
+\bibcite{haoHighorderAccurateNystrom2012}{4}
+\bibcite{kuesterAveragedTransitionConditions2003}{5}
+\bibcite{perez-arancibiaSidewaysAdiabaticityRay2018}{6}
+\gdef \@abspage@last{8}
