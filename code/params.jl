@@ -1,4 +1,5 @@
 using MetaBIE
+using FourierSeriesEvaluators
 
 
 # L = 2pi # domain period
@@ -17,10 +18,10 @@ c = -sinpi(θi) # metasurface parameter
 L = 2pi/(k*abs(d)) # period of designer metasurface
 @assert !MetaBIE.iswoodanomaly(L,kx,k) "Wood anomaly"
 
-α = MetaBIE.FourierSeries([0, c, c], L)
-β = MetaBIE.FourierSeries([0, c,-c], L)
+α = FourierSeries([c, c]; period=L, offset=-1)
+β = FourierSeries([c,-c]; period=L, offset=-1)
 
-# α = MetaBIE.FourierSeries([0], L)
-# β = MetaBIE.FourierSeries([0], L)
+# α = FourierSeries([0]; period=L, offset=-1)
+# β = FourierSeries([0]; period=L, offset=-1)
 
 prob = MetaBIE.MetaProblem(L, k, θi, α, β, n, m)

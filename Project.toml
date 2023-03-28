@@ -2,6 +2,7 @@
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+FourierSeriesEvaluators = "2a892dea-6eef-4bb5-9d1c-de966c9f6db5"
 IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
 MetaBIE = "e659b643-8284-4b62-a0db-b1c244fc1909"

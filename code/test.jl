@@ -5,6 +5,7 @@ using StaticArrays
 using Plots
 using FFTW
 using BenchmarkTools
+using FourierSeriesEvaluators
 
 using MetaBIE
 
@@ -20,8 +21,8 @@ function check_convergence(Ns, solver, m=20)
     L = 2pi/(k*abs(d)) # period of designer metasurface
     @assert !MetaBIE.iswoodanomaly(L,kx,k) "Wood anomaly"
 
-    α = MetaBIE.FourierSeries([0, c, c], L)
-    β = MetaBIE.FourierSeries([0, c,-c], L)
+    α = FourierSeries([c, c]; period=L, offset=-1)
+    β = FourierSeries([c,-c]; period=L, offset=-1)
 
     sols = Vector{MetaBIE.MetaSolution{ComplexF64}}(undef, length(Ns))
     @info "starting convergence run for $(nameof(solver))"
@@ -73,8 +74,8 @@ function check_scaling(Ns, solver, m=20)
     L = 2pi/(k*abs(d)) # period of designer metasurface
     @assert !MetaBIE.iswoodanomaly(L,kx,k) "Wood anomaly"
 
-    α = MetaBIE.FourierSeries([0, c, c], L)
-    β = MetaBIE.FourierSeries([0, c,-c], L)
+    α = FourierSeries([c, c]; period=L, offset=-1)
+    β = FourierSeries([c,-c]; period=L, offset=-1)
 
     times = Vector{Float64}(undef, length(Ns))
     @info "starting timing run for $(nameof(solver))"
